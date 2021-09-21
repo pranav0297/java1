@@ -1,6 +1,9 @@
+import java.util.*;
 public class Duplicate_2 {
     public static void main(String[] args) {
-        String s = "pranav mishra pranav mishra";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the String: ");
+        String s = sc.nextLine();
         Duplicate_2 d = new Duplicate_2();
         d.words(s);
     }
