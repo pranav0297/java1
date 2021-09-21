@@ -1,3 +1,4 @@
+import java.util.*;
 public class StringBuffer_8 {
 
     void reverse (String s){
@@ -15,7 +16,10 @@ public class StringBuffer_8 {
     }
 
     public static void main(String[] args) {
-        String s = "PranavMishra";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the String: ");
+        String s = sc.nextLine();
+        
         StringBuffer_8 m = new StringBuffer_8();
 
         m.reverse(s);
