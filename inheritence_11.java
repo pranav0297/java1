@@ -1,7 +1,5 @@
-class Bank {
-    void getDetails() {
-        System.out.println("hi");
-    }
+abstract class Bank {
+    abstract void getDetails();
 }
 class SBI extends Bank {
     void getDetails() {
