@@ -1,3 +1,4 @@
+import java.util.*;
 public class Char_percentage_4 {
     void percentage(String s){
         int upper=0;
@@ -38,7 +39,11 @@ public class Char_percentage_4 {
     public static void main (String[] args) {
 
         Char_percentage_4 c = new Char_percentage_4();
-        String s ="Pranav@12345";
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the String: ");
+        String s = sc.nextLine();
+        
         c.percentage(s);
 
     }
