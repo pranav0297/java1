@@ -2,8 +2,12 @@ public class count_3 {
     public static void main(String[] args) {
         count_3 c = new count_3();
 
-        String s = "Pranav Mishra";
-        char ch = 'a';
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the String: ");
+        String s = sc.nextLine();
+
+        System.out.println("Enter the character: ");
+        char ch = sc.next().charAt(0);
         System.out.println(ch + " occure " + c.occurence(s, ch) + " times in the string");
     }
 
