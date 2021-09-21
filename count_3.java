@@ -1,3 +1,4 @@
+import java.util.*;
 public class count_3 {
     public static void main(String[] args) {
         count_3 c = new count_3();
