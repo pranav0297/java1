@@ -7,9 +7,15 @@ public class subString_1 {
     public static void main (String[] args) {
         subString_1 ss = new subString_1();
 
-        String s1 = "Pranav Mishra is an IOS Developer";
-        String s2 = "IOS";
-        String s3 = "JAVA";
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the String: ");
+        String s1 = sc.nextLine();
+
+        System.out.println("Enter the Sub String: ");
+        String s2 = sc.nextLine(); 
+
+        System.out.println("Enter the Replace String: ");
+        String s3 = sc.nextLine();
         System.out.println(ss.replace(s1,s2,s3));
     }
 }
